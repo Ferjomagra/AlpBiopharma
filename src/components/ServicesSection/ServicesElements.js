@@ -45,7 +45,7 @@ export const ServicesCard = styled.div`
 	border-radius: 10px;
 	height:100%;
 	max-height: 340px;
-	margin-bottom: 15px;
+	margin-bottom: 60px;
 	padding: 0px;
 	
 	box-shadow: 0 0px 15px rgba(0,0,0,0.2);
