@@ -45,13 +45,13 @@ app.post('/email', (req,res)=>{
 
 		var data = {
 			from : newEmail.from_email,
-			to: 'fernandomadueno1@gmail.com',
+			to: 'willy@alp.pe',
 			subject: 'Notificación',
 			text: req.body.message
 		}
 		console.log(newEmail)
 
-		/*mailgun.messages().send(data, function(error,body){
+		mailgun.messages().send(data, function(error,body){
 			if(error){
 				console.log(error)
 			}
@@ -64,7 +64,7 @@ app.post('/email', (req,res)=>{
 		} else {
 			console.log('No se envió el mensaje')
 			res.render(err)
-		}*/
+		}
 	})
 })
 /*End For email*/
