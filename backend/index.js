@@ -45,7 +45,7 @@ app.post('/email', (req,res)=>{
 
 		var data = {
 			from : newEmail.from_email,
-			to: 'willy@alp.pe',
+			to: '',
 			subject: 'Notificación',
 			text: req.body.message
 		}
