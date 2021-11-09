@@ -1,3 +1,13 @@
+# About AlpBiopharma
+
+AlpBiopharma is a company which imports medical vitamins, and inputs for chemical products.
+
+# About this project
+
+This project was created to AlpBiopharma as communication way as potencial customers hub.
+
+# 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
