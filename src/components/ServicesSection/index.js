@@ -38,7 +38,7 @@ export default class Services extends Component{
 
                         <ServicesContent>
                             <ServicesH2>Industria Farmacéutica</ServicesH2>
-                            <a style={Astyle} href="https://res.cloudinary.com/drdmb9g49/image/upload/v1624035539/ind_farma_ssa0yp.pdf" rel="noopener noreferrer" target="_blank">Ver productos</a>
+                            <a style={Astyle} href="https://res.cloudinary.com/dintair/image/upload/v1646225555/Pharma.pdf" rel="noopener noreferrer" target="_blank">Ver productos</a>
                         </ServicesContent>
 
                     </ServicesCard>
@@ -48,7 +48,7 @@ export default class Services extends Component{
 
                         <ServicesContent>
                             <ServicesH2>Nutrición y Salud</ServicesH2>
-                            <a style={Astyle} href="https://res.cloudinary.com/drdmb9g49/image/upload/v1624035539/ind_nutri_siilye.pdf" rel="noopener noreferrer" target="_blank">Ver productos</a>
+                            <a style={Astyle} href="https://res.cloudinary.com/dintair/image/upload/v1646225555/Health.pdf" rel="noopener noreferrer" target="_blank">Ver productos</a>
                         </ServicesContent>
 
                     </ServicesCard>
@@ -58,7 +58,7 @@ export default class Services extends Component{
 
                         <ServicesContent>
                             <ServicesH2>Ingredientes alimenticios</ServicesH2>
-                            <a style={Astyle} href="https://res.cloudinary.com/drdmb9g49/image/upload/v1624035539/ind_alimentos_1_t3akza.pdf" rel="noopener noreferrer" target="_blank">Ver productos</a>
+                            <a style={Astyle} href="https://res.cloudinary.com/dintair/image/upload/v1646225555/Food.pdf" rel="noopener noreferrer" target="_blank">Ver productos</a>
                         </ServicesContent>
                     </ServicesCard>
                 </ServicesWrapper>

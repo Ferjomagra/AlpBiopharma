@@ -8,7 +8,7 @@
  	FooterLinkItems,
  	FooterLinkTitle,
  	FooterLink,
-
+	FooterLinkA,
  	SocialMedia,
  	Img,
  	SocialMediaWrap,
@@ -38,6 +38,7 @@
 							
 							<FooterLink to="/signin">Av. Periurbana Mz. S Lot. 09 Carabayllo, Lima, Perú</FooterLink>
 							<FooterLink to="/signin">Ventas@alp.pe</FooterLink>
+							<FooterLinkA target="_blank" href="https://wa.me/51994025133">+51 994-025-133</FooterLinkA>
 							
  						</FooterLinkItems>
  					</FooterLinksWrapper>
