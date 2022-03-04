@@ -27,7 +27,7 @@ const HeroSection = () => {
 				<VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
 			</HeroBg>
 			<HeroContent>
-				<HeroH1>Expertos en importaciones de insumos químicos</HeroH1>
+				<HeroH1>Equipo con más de 15 años de experiencia</HeroH1>
 				
 				<HeroBtnWrapper>
 					<Button to="Email" onMouseEnter={onHover} 

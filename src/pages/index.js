@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
+import CarouselContainer from '../components/carrousel';
 import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
 import SecundarySection from '../components/SecundarySection';
@@ -9,6 +10,7 @@ import {secundaryObjOne} from '../components/SecundarySection/Data'
 import Services from '../components/ServicesSection'
 import EmailSection from '../components/EmailSection'
 import Footer from '../components/Footer'
+
 
 const Home = () => {
 
@@ -23,6 +25,7 @@ const Home = () => {
 		<>
 			<Sidebar isOpen={isOpen} toggle={toggle} />
 			<Navbar toggle={toggle}/>
+			<CarouselContainer/>
 			<HeroSection/>
 			<InfoSection {...homeObjOne}/>
 			<SecundarySection {...secundaryObjOne}/>
