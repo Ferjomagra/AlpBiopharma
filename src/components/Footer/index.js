@@ -38,7 +38,7 @@
 							
 							<FooterLink to="/signin">Av. Periurbana Mz. S Lot. 09 Carabayllo, Lima, Perú</FooterLink>
 							<FooterLink to="/signin">Ventas@alp.pe</FooterLink>
-							<FooterLinkA target="_blank" href="https://wa.me/51994025133">+51 994-025-133</FooterLinkA>
+							<FooterLinkA target="_blank" href="https://wa.me/51943369498">+51 943-369-498</FooterLinkA>
 							
  						</FooterLinkItems>
  					</FooterLinksWrapper>

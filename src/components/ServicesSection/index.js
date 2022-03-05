@@ -25,7 +25,7 @@ export default class Services extends Component{
             marginTop: "13px",
             padding: "12px 30px",
             borderRadius: "50px",
-            background: "#00cc88"
+            background: "#0066ff"
         }
 
        return (

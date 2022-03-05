@@ -83,6 +83,6 @@ export const Button = styled.button`
 
 	&:hover{
 		transition: 0.2s all ease;
-		background:#00cc88;
+		background:#0066ff;
 	}
 `

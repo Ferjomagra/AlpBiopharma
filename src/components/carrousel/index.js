@@ -1,18 +1,28 @@
+
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 
-import image1 from '../../images/carrousel_images/back_chat.PNG';
-import image2 from '../../images/carrousel_images/back_enterprise.png';
-import image3 from '../../images/carrousel_images/back_restrict.png';
-import image4 from '../../images/LAB_FSX_TIT_FoodandBeverageAnalysis_Apr19.jpg';
-import image5 from '../../images/farmaceutica.jpg'
+import image1 from '../../images/carrousel_images/miel.jpg';
+import image2 from '../../images/carrousel_images/medicamentos.jpg';
+import image3 from '../../images/carrousel_images/frutas.jpg';
+import image4 from '../../images/carrousel_images/azucar.jpg';
+import image5 from '../../images/carrousel_images/atomos.jpg';
+import image6 from '../../images/carrousel_images/moleculas.jpg';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const CarouselContainer = () => {
   return (
+    
     <Carousel fade={true} pause={false}>
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous"
+      />
       <Carousel.Item interval={2000}>
+      
         <img
           className="d-block w-100"
           src={image1}
@@ -73,7 +83,7 @@ const CarouselContainer = () => {
       <Carousel.Item interval={2000}>
         <img
           className="d-block w-100"
-          src={image3}
+          src={image6}
           alt="Third slide"
         />
         <Carousel.Caption>
