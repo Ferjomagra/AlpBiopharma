@@ -39,13 +39,13 @@ app.post('/email', (req,res)=>{
 
 	newEmail.save(function(err){
 		const content = ''
-		var api_key = 'key-d8214dad23cb6f4a0b54f5d346cb3656';
-		var domain = 'dintair.com';
+		var api_key = '';
+		var domain = '';
 		var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 
 		var data = {
 			from : newEmail.from_email,
-			to: 'willyandre.eg@gmail.com',
+			to: '',
 			subject: 'Notificación',
 			text: req.body.message
 		}
