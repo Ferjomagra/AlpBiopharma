@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
-import CarouselContainer from '../components/carrousel';
 import HeroSection from '../components/HeroSection';
+import CarouselContainer from '../components/carrousel';
 import InfoSection from '../components/InfoSection';
 import SecundarySection from '../components/SecundarySection';
 import {homeObjOne} from '../components/InfoSection/Data';
@@ -25,8 +25,9 @@ const Home = () => {
 		<>
 			<Sidebar isOpen={isOpen} toggle={toggle} />
 			<Navbar toggle={toggle}/>
-			<CarouselContainer/>
+			
 			<HeroSection/>
+			<CarouselContainer/>
 			<InfoSection {...homeObjOne}/>
 			<SecundarySection {...secundaryObjOne}/>
 			<Services/>
